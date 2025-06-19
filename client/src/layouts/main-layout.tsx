@@ -100,11 +100,6 @@ export default function MainLayout({ children }: MainLayoutProps) {
                     <User className="mr-2 h-4 w-4" />
                     <span>Meu Perfil</span>
                   </DropdownMenuItem>
-                  <DropdownMenuItem>
-                    <Settings className="mr-2 h-4 w-4" />
-                    <span>Configurações</span>
-                  </DropdownMenuItem>
-                  <DropdownMenuSeparator />
                   <DropdownMenuItem 
                     className="text-red-600 focus:text-red-600" 
                     onClick={handleLogout}
